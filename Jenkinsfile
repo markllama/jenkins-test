@@ -1,5 +1,6 @@
 // Just an empty file to start
-
-stage(
-    sh "echo Hello"
-)
+node {
+    stage("test echo") {
+        sh "echo Hello"
+    }
+}
