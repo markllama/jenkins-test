@@ -1,5 +1,5 @@
 // Just an empty file to start
-node {
+node ("container") {
 
     checkout scm
     
