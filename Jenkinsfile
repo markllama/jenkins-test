@@ -1,4 +1,9 @@
 // Just an empty file to start
+
+stage("outside node clause") {
+    sh "echo Outside Node clause"
+}
+
 node ("container") {
 
     checkout scm
